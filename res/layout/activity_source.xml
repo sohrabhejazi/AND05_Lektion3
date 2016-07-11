@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background_sources">
+<TextView
+android:text="@string/source_identifier"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />
+<AutoCompleteTextView
+android:id="@+id/autocomplete_identifier"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<TextView
+android:text="@string/authors" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<EditText
+android:id="@+id/et_authors" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+/>
+<TextView
+android:text="@string/titel" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<EditText
+android:id="@+id/et_titel"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<TextView
+android:text="@string/publisher" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<EditText
+android:id="@+id/et_publisher" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<TextView
+android:text="@string/date" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<EditText
+android:id="@+id/et_date" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+ />
+<Button
+android:id="@+id/back_bt"
+android:text="@string/btBack"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />
+</LinearLayout>

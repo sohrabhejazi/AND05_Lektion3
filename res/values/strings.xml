@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello word, KeywordActivity</string>
+    <string name="btSave">Literaturquelle erfassen</string>
+    <string name="btBack">Quelle zurückgeben</string>
+    <string name="title_activity_source">SourceActivity</string>
+    <string name="source_identifier">Kurzbezeichnung der Literarquelle</string>
+    <string name="authors">author</string>
+    <string name="titel">Titel de Quelle</string>
+    <string name="publisher">Verlag, Ort oder Webquelle</string>
+    <string name="date">Publikationsdatum</string>
+    <string name="keyword">Stichwort</string>
+    <string name="bt_save_keyword">Eintrag speichern</string>
+     <string name="bt_source_text">Quelle erfassen/ändern</string>
+     <string name="locality">Fundstelle(Seite, Abschnitt)</string>
+     <string name="text">Freier Text zum Stichwort</string>
+    
+</resources>

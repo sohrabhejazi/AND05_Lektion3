@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background_keyword">
+<TextView
+android:id="@+id/tv_source" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor="@color/red" />
+<TextView
+android:text="@string/keyword" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor="@color/black" />
+<EditText
+android:id="@+id/et_keyword" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+/>
+<TextView
+android:text="@string/locality"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor="@color/black" />
+<EditText
+android:id="@+id/et_locality"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+/>
+<TextView
+android:text="@string/text" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor="@color/black" />
+<EditText
+android:id="@+id/et_text" 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+/>
+<LinearLayout
+android:orientation="horizontal"
+android:gravity="center_horizontal" 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background_keyword">
+<Button
+android:id="@+id/bt_save"
+android:text="@string/bt_save_keyword"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+<Button
+android:id="@+id/bt_source"
+android:text="@string/bt_source_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
